@@ -1,0 +1,170 @@
+body {
+
+    margin: 0 auto;
+    
+}
+
+nav {
+    text-align: center;
+    font-family: cursive;;
+    font-style: italic;
+    font-weight: bold;
+    color: #F5F6CE;
+    background-color: #000000;
+    margin: 0 auto;
+    
+}
+ nav div h1 {
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 1.3em;
+
+}
+
+section {
+    height: calc(50vh);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bannerPrincipal {
+   text-align: center;
+    font-family: fantasy;
+    font-size: 19px;
+    background-image: url(../img/bannerPrincipal.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3px;
+}
+
+.botaoPesquisar {
+    line-height: 7.4vh;
+    font-size: 19px;
+    font-family: sans-serif;
+    background-color: #088A08;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.form-control {
+    line-height: 7.4vh;
+    line-height: inherit;
+    padding: 10px;
+    font-size: 19px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+    width:  250px;
+    border-color: #04B404;
+}
+
+.pesquisa {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bannerResul {
+background-image: url(../img/backgroundResult.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.cidade {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;   
+}
+
+.icone {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.descricaoTemp {
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+font-family:sans-serif;
+    margin: 0 auto;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.temperatura {
+text-align: center;
+    color: #000000;
+font-size: 25px;
+font-weight: bold;
+    font-family:sans-serif;
+    margin: 0 auto;
+}
+
+.humidade {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #B40404;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.velocidadeVento {
+    color: #070719;
+    font-family:sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#bannerCentral {
+   text-align:center;
+    font-family: Arial;
+    color: #F5F6CE;
+    font-size: 23px;
+    background-image:url(../img/tempestade.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin-bottom: 3px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+#bannerFinal {
+     background-image:url(../img/sol.jpg);
+    background-repeat: round;
+    background-size:cover;
+    font-family: Arial;
+    font-size: 23px;
+    color:  #F5F6CE;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+footer {
+    color: #ECE0F8;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin-top: 5px;
+    background-color: #100719;
+    text-align: center;
+    font-size: 13px;    
+}
+
+@media screen and (min-width: 300px) {
+    
+    section {
+    height: calc(50vh);
+    }
+}
